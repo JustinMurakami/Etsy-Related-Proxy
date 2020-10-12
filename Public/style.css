@@ -9,7 +9,7 @@
   grid-column-gap: 15px;
   max-width: 1400px;
   grid-template-areas:
-    "reviews seller-info";
+    “reviews seller-info”;
 }
 #DisplayProduct {
   margin-bottom: 150px;
@@ -18,12 +18,12 @@
 }
 #reviews {
   grid-area: reviews;
+  margin-top: -240px;
 }
 #seller-info {
   grid-area: seller-info;
   margin-top: 300px;
 }
-
 @media (max-width: 899px) {
   #description-module {
     display: grid;
@@ -31,7 +31,7 @@
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
-      "seller-info"
-      "reviews";
+      “seller-info”
+      “reviews”;
   }
 }
